@@ -3,6 +3,16 @@
 An interactive Power BI dashboard for analyzing grocery sales, category performance, geographic trends, and delivery experience using a synthetic dataset.
 
 Dashly is a data analytics portfolio project demonstrating an end-to-end analytics workflow, from data exploration and SQL queries in MySQL to data transformation, DAX calculations, and interactive dashboard development in Power BI.
+## Dashboard Preview
+
+### Automatic Date Selection
+![Automatic Date Selection](screenshots/Auto_DateSelection.png)
+
+### Category Growth Analysis
+![Highest Category Growth Rate](screenshots/Highest_Growth_Rate.png)
+
+### Full-Year Sales Comparison
+![Manual Full-Year Comparison](screenshots/Manual_Full_Year_Comparison.png)
 
 ## Overview
 
@@ -189,6 +199,19 @@ A DAX measure was implemented to exclude durations below zero and above 180 minu
 KPI values changed when category selections and other filters were applied. This made it important to distinguish filtered values from overall results.
 
 Separate annual sales measures were used to remove filters from the Calendar table and calculate sales for specific years. This provided a more direct way to validate annual sales independently of the selected reporting period.
+
+
+## Business Questions
+
+This dashboard was designed to answer the following business questions:
+
+- **Sales Performance:** How does total sales revenue compare between the current and previous years?
+- **Category Analysis:** Which product categories generate the highest revenue, and which show the strongest growth?
+- **Geographic Performance:** Which areas contribute the most to total sales?
+- **Monthly Trends:** Which months record the highest sales, and how do monthly sales patterns compare across years?
+- **Delivery Performance:** How does delivery time vary across orders, and what patterns exist between delivery speed and customer ratings?
+- **Customer Satisfaction:** Which customer ratings are most common, and how are they distributed across delivery times?
+- **Flexible Time Analysis:** How can users analyze sales using automatic date selection or manually selected time periods?
 
 ## Data Quality and Limitations
 
